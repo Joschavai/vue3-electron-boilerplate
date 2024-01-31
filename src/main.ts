@@ -4,6 +4,11 @@ import App from "./App.vue";
 import router from "./router";
 import "./samples/node-api";
 
+/*****************************************************************************/
+/* CSS */
+/*****************************************************************************/
+import './assets/primevue-sass-theme-3.47.2/themes/move-light/theme.scss';
+
 // Plugins
 
 const pinia = createPinia();
